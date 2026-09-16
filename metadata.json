@@ -1,0 +1,46 @@
+{
+  "best_model_name": "Support Vector Machine",
+  "feature_columns": [
+    "sepal length (cm)",
+    "sepal width (cm)",
+    "petal length (cm)",
+    "petal width (cm)"
+  ],
+  "target_names": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "all_results": {
+    "Logistic Regression": {
+      "test_accuracy": 0.9333,
+      "cv_mean_accuracy": 0.9583,
+      "cv_std": 0.0264
+    },
+    "K-Nearest Neighbors": {
+      "test_accuracy": 0.9333,
+      "cv_mean_accuracy": 0.9667,
+      "cv_std": 0.0312
+    },
+    "Support Vector Machine": {
+      "test_accuracy": 0.9667,
+      "cv_mean_accuracy": 0.9667,
+      "cv_std": 0.0312
+    },
+    "Decision Tree": {
+      "test_accuracy": 0.9333,
+      "cv_mean_accuracy": 0.9417,
+      "cv_std": 0.0204
+    },
+    "Random Forest": {
+      "test_accuracy": 0.9,
+      "cv_mean_accuracy": 0.95,
+      "cv_std": 0.0167
+    },
+    "Naive Bayes": {
+      "test_accuracy": 0.9667,
+      "cv_mean_accuracy": 0.9583,
+      "cv_std": 0.0264
+    }
+  }
+}
